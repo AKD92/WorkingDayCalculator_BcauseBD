@@ -31,7 +31,7 @@ int main(void) {
     /* Take input from user as two dates */
     /* First one is the starting date and the second one is the ending date */
     /* Total working days will be calculated from starting date to ending date (inclusive) */
-    printf("\n** WorkdDay Calculator for B-cause BD Ltd **\n\n");
+    printf("\n** WorkDay Calculator (B-cause BD Ltd) **\n\n");
     printf("Enter starting date as MM DD YYYY : ");
     scanf("%u %u %u", &month_x, &day_x, &year_x);
     if (month_x > 12 || day_x > 31) {
