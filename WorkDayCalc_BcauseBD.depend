@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1500518553 source:d:\mine\c++ projects\workdaycalc_bcausebd\src\count_workday.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

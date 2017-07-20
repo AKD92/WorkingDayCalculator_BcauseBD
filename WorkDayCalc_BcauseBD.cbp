@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WorkDayCalc_BcauseBD" />
+		<Option pch_mode="2" />
+		<Option compiler="tdm64_gcc_compiler" />
+		<Build>
+			<Target title="Release_x64">
+				<Option output="bin/Release_x64/WorkDayCalc_BcauseBD_x64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release_x64/" />
+				<Option type="1" />
+				<Option compiler="tdm64_gcc_compiler" />
+				<Compiler>
+					<Add option="-O1" />
+					<Add option="-Wmain" />
+					<Add option="-Wall" />
+					<Add option="-std=c99" />
+					<Add option="-ansi" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Release_x86">
+				<Option output="bin/Release_x86/WorkDayCalc_BcauseBD_x86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release_x86/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O1" />
+					<Add option="-Wmain" />
+					<Add option="-Wall" />
+					<Add option="-std=c99" />
+					<Add option="-ansi" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/count_workday.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
